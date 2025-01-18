@@ -47,7 +47,7 @@ const toggleMenu = () => {
         <nav class="block w-full px-4 py-2 mx-auto text-gray-500 bg-white border shadow-md  border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
           <div class="container flex items-center justify-between mx-auto text-blue-gray-900 sm:w-full">
             <a  class="mr-4 py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased flex justify-center items-center">
-              <img src="../assets/1.png" class="h-12 w-12"/>
+              <img src="../assets/logo.png" class="h-12 w-12"/>
               <p class="mx-2"> WEB-WORK'S</p>
             </a>
             <div class="hidden lg:block ">
