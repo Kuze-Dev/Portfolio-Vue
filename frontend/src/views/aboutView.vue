@@ -13,7 +13,7 @@
           />
         </div>
         <div class="lg:w-4/5 xl:w-1/2 w-full lg:px-12 py-3">
-          <h2 class="text-2xl font-bold sm:text-3xl">About Me</h2>
+          <h2 class="text-2xl font-bold sm:text-3xl">About Messs</h2>
           <p class="mt-4 text-gray-600 text-justify">
             My name is Kevin Rey P. Mahumot, and I specialize in crafting engaging web solutions. With a strong background in Vue.js for frontend development, I create dynamic user interfaces that captivate audiences. Leveraging Express for backend solutions, I ensure efficient server-side functionality. My expertise extends to MySQL for database management, where I optimize data handling to deliver seamless experiences.
             <br />
