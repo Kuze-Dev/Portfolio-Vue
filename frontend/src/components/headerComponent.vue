@@ -85,7 +85,7 @@ const toggleMenu = () => {
               </button>
             </div>
           </div>
-          <div class="lg:hidden" v-show="isMenuOpen" @click.away="isMenuOpen = false">
+          <div class="lg:hidden" v-show="isMenuOpen" @click.self="isMenuOpen = false">
             <ul class="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
               <li class="menu-button flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2 text-blue-gray-900">
                 <i class="fas fa-home"></i>
