@@ -19,7 +19,7 @@
       <div class="container mx-auto">
         <div class="text-center">
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Project Portfolios
+            Project Portfolio
           </h2>
           <div class="lg:w-[50%] xl:w-[50%] px-5 mx-auto" >
           <p class="text-base md:text-lg lg:text-xl text-justify  xl:text-xl text-[14px] ">
@@ -68,15 +68,7 @@
       // buttonLink: '#',
       // date: 'Mar 15, 2023'
     },
-    {
-      image: 'https://miro.medium.com/v2/resize:fit:1400/0*tJVlXDl5iExYSAzE', 
-      title: 'Responsive Design Principles',
-      details: 'Focused on creating visually appealing and user-friendly websites, I apply responsive design principles to ensure seamless experiences across all devices. With a strong foundation in Tailwind CSS, I craft clean and efficient layouts that adapt beautifully to any screen size.',
-      // buttonText: 'View Details',
-      // // buttonLink: '#',
-      // // date: 'Jan 05, 2023'
-    },
-  
+   
     {
       image: 'https://firebasestorage.googleapis.com/v0/b/mcm-chuch.appspot.com/o/Static%20Website.png?alt=media&token=13cade2e-1c3d-4a50-9e69-32514755af99', 
       title: 'Static Website',
