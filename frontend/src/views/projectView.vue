@@ -19,7 +19,7 @@
       <div class="container mx-auto">
         <div class="text-center">
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Project Portfolio
+            Project Portfolios
           </h2>
           <div class="lg:w-[50%] xl:w-[50%] px-5 mx-auto" >
           <p class="text-base md:text-lg lg:text-xl text-justify  xl:text-xl text-[14px] ">
