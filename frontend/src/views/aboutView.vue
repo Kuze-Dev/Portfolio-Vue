@@ -22,17 +22,19 @@
 </p>
 
 
-          <div class="block xl:flex lg:flex items-center mt-8">
-           <a
-  href="kevinreyresume.pdf"
-  download ="kevinreyresume.pdf"
-  class="inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+          <div class="flex flex items-center mt-5">
+     <a
+  href="/kevinreyresume.pdf"
+  download="kevinreyresume.pdf"
+  class="inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 >
   <i class="fas fa-download px-2"></i>
   Download CV
 </a>
 
-            <ul class="flex lg:flex px-0 lg:px-4 xl:px-4 xl:ml-4 lg:ml-4 mt-5 xl:mt-0 lg:mt-0">
+
+
+            <ul class="flex lg:flex px-0 lg:px-4 xl:px-4 xl:ml-4 lg:ml-4  ml-4 xl:mt-0 lg:mt-0">
               <li class="mr-2">
                 <a
                   href="https://www.facebook.com/kevinrey.mahumot.12"
@@ -59,8 +61,23 @@
               </li>
             </ul>
           </div>
+   <span class="text-center block mt-2 font-semibold">Tech Stack Used:</span>
+<div class="flex gap-6 justify-center items-center mt-4">
+
+  <div class="flex">
+    <img src="../assets/html.jpg" alt="HTML" class="w-12 h-12   transform transition-all duration-300 hover:scale-110" />
+    <img src="../assets/css.jpg" alt="CSS" class="w-12 h-12   transform transition-all duration-300 hover:scale-110" />
+    <img src="../assets/tailwind.jpg" alt="Tailwind CSS" class="w-12 h-12   transform transition-all duration-300 hover:scale-110" />
+    <img src="../assets/vue.jpg" alt="Vue.js" class="w-12 h-12   transform transition-all duration-300 hover:scale-110" />
+    <img src="../assets/node.jpg" alt="Node.js" class="w-12 h-12   transform transition-all duration-300 hover:scale-110" />
+    <img src="../assets/express.png" alt="Express" class="w-12 h-12   transform transition-all duration-300 hover:scale-110" />
+    <img src="../assets/mysql.jpg" alt="MySQL" class="w-12 h-14   transform transition-all duration-300 hover:scale-110" />
+  </div>
+</div>
+
+
+
         </div>
-        <div></div>
       </div>
     </section>
   </main>
