@@ -1,7 +1,7 @@
 <template>
-    <!-- ====== Blog Section Start -->
+
     <section class="relative  mt-10 text-gray-800  ">
-      <!-- SVG background -->
+
       <div class="absolute inset-0 pointer-events-none">
         <svg
           class="w-full h-full"
@@ -29,7 +29,7 @@
         </div>
   
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 px-4 mt-12">
-          <template v-for="(item, index) in blogItems" :key="index">
+          <div v-for="(item, index) in blogItems" :key="index">
             <div class="border border-gray-200 dark:border-dark-3 wrounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 bg-white shadow-lg"> <!-- Added background color and shadow to the card -->
               <div class="overflow-hidden ">
                 <img :src="item.image" alt="image" class="w-full h-full object-cover object-center" />
@@ -44,7 +44,7 @@
               
               </div>
             </div>
-          </template>
+          </div>
         </div>
       </div>
       <footerComponent class="mt-8"/>
@@ -60,7 +60,7 @@
   const blogItems = ref([
    
     {
-      image: '../src/assets/warsmows.png', 
+      image: 'https://firebasestorage.googleapis.com/v0/b/mcm-chuch.appspot.com/o/warsmows.png?alt=media&token=d658fdc9-a236-43ea-9f2c-02056fee2dcc', 
       title: 'Water Refilling Sales Monitoring Web System (Dynamic Web System)',
       details: 'The Water Refilling Sales Monitoring Web System helps manage sales, inventory, and customer transactions in a water refilling business. It provides real-time updates, tracks stock levels, and generates sales reports automatically. This system makes operations more efficient and ensures accurate monitoring of daily business activities.',
       tools:'Tech Stack Used: HTML,CSS,TAILWIND CSS,VUE.JS,NODE,EXPRESS & MYSQL',
@@ -78,7 +78,7 @@
     },
   
     {
-      image: '../src/assets/Static Website.png', 
+      image: 'https://firebasestorage.googleapis.com/v0/b/mcm-chuch.appspot.com/o/Static%20Website.png?alt=media&token=13cade2e-1c3d-4a50-9e69-32514755af99', 
       title: 'Static Website',
       details: 'Static Website is a development project showcasing a clean and responsive design, built with HTML and CSS. By leveraging CSS Media Queries, I ensured the website adapts beautifully to different screen sizes and devices. This project highlights my ability to create functional and visually appealing static websites with a focus on responsiveness.'
       // buttonText: 'View Details',
@@ -86,28 +86,22 @@
       // date: 'Mar 21, 2024'
     },
     {
-  image: '../src/assets/portfolio1.png', // Adjust the path to the actual image location
+  image: 'https://firebasestorage.googleapis.com/v0/b/mcm-chuch.appspot.com/o/portfolio1.png?alt=media&token=edaa8096-9426-4d08-abd4-e451a47f01fe', // Adjust the path to the actual image location
   title: 'Portfolio-Vue.js',
   details: 'Portfolio-Vue.js is a project I developed using Vue.js, showcasing my skills in building responsive and dynamic web applications. Designed with responsive design principles, it ensures seamless usability and aesthetics across all devices. This portfolio highlights my expertise in modern web development, with clean layouts and efficient functionality.'
-  // buttonText: 'View Details',
-  // buttonLink: '#'
+ 
 },
 
     {
       image: 'https://miro.medium.com/v2/resize:fit:2526/1*_L4PsCyrhhSIXSL0XsiYew.png', 
       title: 'Optimizing Website Performance',
       details: 'Learn strategies to optimize website performance for better speed and user engagement.',
-      // buttonText: 'View Details',
-      // buttonLink: '#',
-      // date: 'March 31, 2024'
+
     },
     {
       image: 'https://miro.medium.com/v2/resize:fit:2526/1*_L4PsCyrhhSIXSL0XsiYew.png', 
       title: 'Optimizing Website Performance',
       details: 'Learn strategies to optimize website performance for better speed and user engagement.',
-      // buttonText: 'View Details',
-      // buttonLink: '#',
-      // date: 'March 31, 2024'
     },
    
     
